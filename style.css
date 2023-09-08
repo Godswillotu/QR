@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content:center;
+    margin: auto;
+    margin-top: 8rem;
+    width: 18rem;
+    border-radius: 20px;
+}
+
+h1{
+    font-size:22px;
+    text-align:center;
+    font-weight: 700;
+}
+
+p{
+    font-size:15;
+    text-align:center;
+    margin-bottom: 26px;
+    color: hsl(220, 15%, 55%);
+}
+
+img{
+    width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16.9px;
+    border-radius: 18px;
+}
